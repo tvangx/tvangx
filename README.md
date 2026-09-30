@@ -1,76 +1,107 @@
 <div align="center">
 
-# Hi, I'm Tuan Nguyen 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:7C3AED,55:A855F7,100:EC4899&amp;height=210&amp;section=header&amp;text=Tuan%20Nguyen&amp;fontSize=58&amp;fontColor=FFFFFF&amp;animation=fadeIn&amp;fontAlignY=37&amp;desc=Curious%20mind.%20Clear%20direction.%20Human%20connection.&amp;descSize=17&amp;descAlignY=58" width="100%" alt="Tuan Nguyen — Curious mind. Clear direction. Human connection." />
 
-### Full-stack Developer · Backend & Observability Enthusiast
+# Hi, I'm Tuan — also known as Otis 👋
 
-*I build reliable software — and make sure it can explain what is happening inside.*
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=22&amp;duration=3200&amp;pause=1500&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=55&amp;lines=Full-stack+Developer+at+FPT+Software;An+engineer%27s+mindset.+A+people-first+direction.;Growing+toward+Project+Management." width="100%" alt="Full-stack Developer at FPT Software. An engineer's mindset and a people-first direction. Growing toward Project Management." />
 
-[![Email](https://img.shields.io/badge/Email-tuannguyenvan1301%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tuannguyenvan1301@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Otis_Tuan_Nguyen-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/otis-tuan-nguyen)
-[![Location](https://img.shields.io/badge/Location-Hanoi%2C_Vietnam-00A86B?style=flat-square&logo=googlemaps&logoColor=white)](#)
+**I enjoy understanding how systems work — and how people work together.**
+
+[![Email](https://img.shields.io/badge/Let's_talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tuannguyenvan1301@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/otis-tuan-nguyen)
+![Hanoi, Vietnam](https://img.shields.io/badge/Hanoi%2C_Vietnam-7C3AED?style=for-the-badge&logo=googlemaps&logoColor=white)
+
+<sub>Software engineering today · Building toward project management</sub>
 
 </div>
 
 ---
 
-## About me
+## 🧭 The person behind the code
 
-I'm a final-year **Software Engineering** student at **Posts and Telecommunications Institute of Technology (PTIT)** and a **full-time Full-stack Developer at FPT Software**. After completing FSOFT's enterprise training program, I now continue my journey there as an official employee, sharpening my skills through real-world software projects.
+I'm a **full-time Full-stack Developer at FPT Software** and a final-year **Software Engineering student at PTIT** in Hanoi. I've completed FSOFT's training program and am now continuing my journey as an official employee.
 
-My strongest interests sit at the intersection of **backend engineering, microservices, and observability**. I enjoy turning distributed systems into software that is not only scalable, but also measurable, traceable, and easier for teams to operate.
+Backend engineering, microservices, and observability appeal to my curiosity: I like understanding what happens beneath the surface, how the pieces connect, and why something behaves the way it does.
 
-- 🔭 Building reliable services with **NestJS, NATS, and microservices architecture**
-- 📊 Working with the three pillars of observability: **traces, metrics, and logs**
-- 🧠 Exploring system design, distributed systems, and AI-assisted development
-- 🤝 Comfortable collaborating across backend, frontend, and infrastructure concerns
-- ⚽ Away from code: football, movies, music, and photography
+But my ambitions also involve **working more closely with people**. I want to spend more of my career listening, exchanging ideas, understanding different perspectives, and helping a team move toward a shared goal. Technical understanding gives me a foundation; human connection gives me a direction.
 
-> **Engineering principle:** If a system matters in production, it should be observable by design.
+> **The future I want to build:** become a Project Manager who understands the engineering, listens to the people doing the work, and helps turn shared goals into meaningful results.
 
-## Experience
+## 🪞 My strongest asset: knowing myself
 
-### FPT Software · Full-stack Developer (Full-time)
+I describe my strength as **self-awareness and inner clarity** — what I call *“năng lực nội sinh.”*
 
-`June 2026 — Present` · Hanoi, Vietnam
+I have a strong sense of **what I want, what I need, and why it matters to me**. I can have an honest conversation with myself: reflect on my thoughts, question my motivations, and recognize where I need to grow.
 
-- Completed a structured enterprise training program covering professional development practices, debugging, teamwork, code quality, and delivery discipline.
-- Work with Git-based workflows, code reviews, task coordination, and technical documentation in a collaborative environment.
-- Contribute across the stack while specializing in backend development and observability for distributed services.
+That doesn't mean I have every answer. It means I have an internal point of reference when I make decisions, receive feedback, or choose my next step.
 
-## Featured project
-
-### X-Truming — Live Streaming Platform
-
-`FSOFT Mock Project` · `Full-stack Developer — Observability` · `Team of 5`
-
-A Twitch-inspired live-streaming platform designed with a microservices architecture.
-
-- Designed a reusable observability foundation for NestJS microservices.
-- Implemented distributed tracing and trace-context propagation across NATS messaging.
-- Built shared interceptors for HTTP, RPC/NATS, and Server-Sent Events to collect telemetry consistently.
-- Integrated structured logging, centralized exception handling, audit logging, metrics, and tracing for cross-service debugging.
-- Contributed to Next.js/React features and backend integration.
-- Containerized and operated services and observability components with Docker and Kubernetes.
-
-**Core stack:** TypeScript · NestJS · Next.js · React · NATS · OpenTelemetry · Prometheus · Grafana · Loki · Jaeger · Docker · Kubernetes
+| My inner compass | What it means to me |
+|:---|:---|
+| 🧭 **Clarity** | Knowing my own wants and needs helps me choose a direction with intention. |
+| 🪞 **Reflection** | Making time for an honest conversation with myself. |
+| 🌱 **Growth** | Understanding myself also means noticing what I still need to learn. |
+| 🤝 **Connection** | I want to bring that same curiosity to understanding other people. |
 
 <details>
-<summary><strong>How one request becomes observable</strong></summary>
+<summary><b>💬 A small conversation I keep having with myself</b></summary>
+
 <br>
 
-```text
-Client request
-   → API Gateway creates the root span
-   → trace context is injected into a NATS message
-   → microservice extracts the context and continues the trace
-   → telemetry is exported through OpenTelemetry
-   → traces, metrics, and logs are explored in Jaeger and Grafana
-```
+- **What do I really want?** A career where I can keep growing technically while working more closely with people.
+- **What do I need to develop?** Communication, planning, coordination, and the judgment to balance different needs.
+- **What can I do now?** Build a solid engineering foundation, seek feedback, and learn from the people around me.
 
 </details>
 
-## Technical toolbox
+## 🤝 Where I want to go
+
+**My long-term goal is Project Management.** I'm building toward it from where I am now: learning the work, understanding technical decisions, and becoming a more thoughtful teammate.
+
+I want to grow in four connected areas:
+
+- **Communication:** explain ideas clearly, listen carefully, and ask better questions.
+- **Team coordination:** understand dependencies and help people work toward a shared outcome.
+- **Delivery:** learn to plan, prioritize, and recognize risks early.
+- **Leadership:** build trust, take responsibility, and support others as they grow.
+
+For me, the appeal of project management is the chance to **connect people, technical realities, and goals**. I want my engineering experience to help me understand the work I may one day coordinate.
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;duration=2800&amp;pause=1800&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=55&amp;lines=Know+myself.+Understand+others.+Build+together.;Good+questions.+Honest+reflection.+Shared+progress." width="100%" alt="Know myself. Understand others. Build together. Good questions, honest reflection, and shared progress." />
+
+</div>
+
+## 💼 My chapter at FPT Software
+
+**Full-stack Developer · Full-time · Hanoi, Vietnam**
+
+After completing the enterprise training program, I joined FPT Software as an official employee. I'm developing my skills through collaborative software work, with a particular interest in **backend development and observability**.
+
+My experience includes Git workflows, code reviews, debugging, task coordination, and technical documentation. I see this stage as a chance to strengthen both my engineering judgment and the way I work with others.
+
+## ⚽ Outside the editor
+
+There's more to me than a job title or a technology stack.
+
+| When I'm away from code… | You'll find me enjoying… |
+|:---|:---|
+| ⚽ **Football** | The game, the teamwork, and the energy. |
+| 📷 **Photography** | A different way to notice the world. |
+| 🎬 **Movies** | Stories and different perspectives. |
+| 🎧 **Music** | A good soundtrack for the day. |
+
+**An easy conversation starter:** football, photography, a movie recommendation — or what you're learning lately.
+
+## 🛠️ The tools behind my curiosity
+
+My main interests are **backend engineering, distributed systems, and observability**. Here's the technical side of the picture.
+
+<details>
+<summary><b>Open my technical toolbox</b></summary>
+
+<br>
 
 **Languages**
 
@@ -84,7 +115,7 @@ Client request
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![NATS](https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square)
 
 **Frontend**
 
@@ -94,12 +125,15 @@ Client request
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**Data, delivery & observability**
+**Data & delivery**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+
+**Observability**
+
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
@@ -108,40 +142,31 @@ Client request
 
 **Engineering practices:** Microservices · Domain-Driven Design · MVC · OOP · Unit Testing · UML · ERD · SRS Documentation · Git/GitHub · Postman
 
-## Certifications & achievements
+</details>
 
-| Year | Credential | Issuer / Result |
-|:---:|---|---|
+## 🎓 Learning milestones
+
+| Year | Credential / Achievement | Issuer / Result |
+|:---:|:---|:---|
 | 2026 | **Fundamentals of Machine Learning and Artificial Intelligence** | AWS |
 | 2026 | **Claude Code in Action** | Anthropic |
 | 2026 | **AI Fluency: Framework & Foundations** | Anthropic |
 | 2026 | **AI Capabilities and Limitations** | Anthropic |
-| 2025 | **ICPC PTIT Qualifiers** | Algorithm competition participant |
 | 2023 | **Microsoft Office Specialist: Excel (Office 2016)** | Microsoft / Certiport · **953/1000** |
 | 2022 | **TOEFL ITP Official Score Certificate** | ETS · **513/677 (B2)** |
-
-## What I'm growing next
-
-```yaml
-deepening:
-  - backend architecture and distributed systems
-  - production-grade observability and SLOs
-  - system design and performance engineering
-
-exploring:
-  - AI-assisted software development
-  - cloud-native deployment
-  - technical leadership
-```
 
 ---
 
 <div align="center">
 
-### Let's build software that is useful, reliable, and understandable.
+### A good conversation can be the start of something worth building.
 
-[Email me](mailto:tuannguyenvan1301@gmail.com) · [Connect on LinkedIn](https://www.linkedin.com/in/otis-tuan-nguyen)
+If you'd like to talk about software, teamwork, or something we both enjoy, say hello.
 
-<sub>Continuous learning · System thinking · Engineering with empathy</sub>
+[**Send me an email ↗**](mailto:tuannguyenvan1301@gmail.com) · [**Find me on LinkedIn ↗**](https://www.linkedin.com/in/otis-tuan-nguyen)
+
+<sub>Self-awareness · Curiosity · Human connection</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:EC4899,55:A855F7,100:7C3AED&amp;height=125&amp;section=footer&amp;text=See%20you%20around!&amp;fontSize=24&amp;fontColor=FFFFFF&amp;fontAlignY=76&amp;animation=twinkling" width="100%" alt="See you around!" />
 
 </div>
